@@ -227,8 +227,6 @@ public class ServerCharacterPredictionSystem extends BaseComponentSystem impleme
         characterStatesToRemove.clear();
     }
 
-
-
     private void setToTime(long renderTime, EntityRef entity, CircularBuffer<CharacterStateEvent> buffer) {
         CharacterStateEvent previous = null;
         CharacterStateEvent next = null;
